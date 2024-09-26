@@ -1,8 +1,17 @@
-# React + Vite
+# React Fetch Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a simple React application that fetches data from an API and displays it dynamically.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Data Fetching**: Utilizes the Fetch API to retrieve data from `https://jsonplaceholder.typicode.com/posts`.
+- **Dynamic Rendering**: Displays the fetched posts with titles and bodies in a responsive card layout.
+- **Responsive Design**: Uses Tailwind CSS for styling, ensuring a modern and responsive user interface.
+- **Post Request Functionality**: Contains a function to send POST requests to the API (currently not implemented in the UI).
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
+- **JavaScript (ES6)**: The programming language used for the application logic.
+
